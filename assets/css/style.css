@@ -105,7 +105,7 @@ p {
 .logo{height: 46px;}
 .flag{height: 30px; display: inline-block; vertical-align: middle; margin-right: 10px;}
 
-.form-text-middle{font-size: 20px;  line-height: 3.385vw; margin-right: 20px;}
+.form-text-middle{font-size: 20px; color: #111; line-height: 3.385vw; margin-right: 20px;}
 .form-guide-txt{color: #fff; text-align: center; margin-top: 10px;  font-weight: 400;}
 .foot_logo{height: 32px;}
 .jo-footer-contact p{ font-weight: 300; color: #ccc; margin-bottom: 5px;}
@@ -1216,7 +1216,7 @@ input {
 }
 .jo-banner__title {
   margin-top: 25px;
-  font-size: clamp(34px, 3.73vw, 110px);
+  font-size: clamp(24px, 3vw, 110px);
   font-weight: 700;
    text-align: center;
   color: var(--white);
@@ -1234,7 +1234,7 @@ input {
   position: absolute;
   content: "";
   inset: 0;
-  top: -30px;
+  top: -20px;
   z-index: -1;
   background: url(../img/banner-txt-vector-1.svg) no-repeat center center;
   background-size: 80% 80%;
@@ -1244,7 +1244,7 @@ input {
   z-index: 1;
   inset: -10px;
   left: -8px;
-  top: -30px;
+  top: -20px;
 }
 .jo-banner__notifi {
   background-color: var(--white);
@@ -1333,6 +1333,11 @@ input {
   .jo-banner__followers {
     padding: 18px 22px;
   }
+  .jo-banner__title > span:nth-child(2) {
+    display: block;
+  }
+  .form-guide-txt{ font-size: 16px;}
+  .form-guide-txt span{display: block;}
 }
 .jo-banner__followers .number {
   font-weight: 700;
