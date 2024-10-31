@@ -708,6 +708,36 @@ input {
 }
 
 
+.jo-breadcrumb5 {
+  padding: 9.323vw 0 6.458vw;
+  background: url(../img/main_bg4.jpg) no-repeat center -7vw;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: var(--white);
+  overflow: hidden;
+}
+@media screen and (max-width: 1199px) {
+  .jo-breadcrumb5 {
+    padding: 140px 0 100px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .jo-breadcrumb5 {
+    padding: 130px 0 80px;
+  }
+}
+.jo-breadcrumb5::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #852b61, var(--tt-gold));
+  z-index: -1;
+  opacity: 70%;
+}
+
+
 
 
 .jo-breadcrumb {
