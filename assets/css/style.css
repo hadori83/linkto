@@ -114,6 +114,8 @@ p {
 .jo-service-descr{margin-bottom: 0; font-size: 16px;}
 .jo-service-descr span{font-size: 18px; font-weight: 600;}
 .point-color{color:#F820A3 !important}
+.tagbox{margin-top: 20px; text-align: left;}
+.tagbox span{background:rgba(255, 255, 255, 0.9); border-radius: 30px; color: #333; padding: 8px 20px; cursor: pointer; margin-right: 5px;}
 .seller_bg1{
 
    height: 20vw;
@@ -595,7 +597,7 @@ input {
   opacity: 0;
 }
 .jo-breadcrumb2 {
-  padding: 12.323vw 0 11.458vw;
+  padding: 9.323vw 0 6.458vw;
   background: url(../img/main_bg.jpg) no-repeat center center;
   background-size: cover;
   text-align: center;
@@ -635,6 +637,79 @@ input {
   color: var(--black);
 }
 
+.jo-breadcrumb3 {
+  padding: 9.323vw 0 6.458vw;
+  background: url(../img/main_bg2.jpg) no-repeat center -24vw;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: var(--white);
+  overflow: hidden;
+}
+@media screen and (max-width: 1199px) {
+  .jo-breadcrumb3 {
+    padding: 140px 0 100px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .jo-breadcrumb3 {
+    padding: 130px 0 80px;
+  }
+}
+.jo-breadcrumb3::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #852b61, var(--tt-gold));
+  z-index: -1;
+  opacity: 70%;
+}
+.jo-breadcrumb3-nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.jo-breadcrumb3-nav a {
+  color: var(--white);
+}
+.jo-breadcrumb3-nav a:hover {
+  color: var(--black);
+}
+
+.jo-breadcrumb4 {
+  padding: 9.323vw 0 6.458vw;
+  background: url(../img/main_bg3.jpg) no-repeat center -7vw;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: var(--white);
+  overflow: hidden;
+}
+@media screen and (max-width: 1199px) {
+  .jo-breadcrumb4 {
+    padding: 140px 0 100px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .jo-breadcrumb4 {
+    padding: 130px 0 80px;
+  }
+}
+.jo-breadcrumb4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #852b61, var(--tt-gold));
+  z-index: -1;
+  opacity: 70%;
+}
+
+
+
+
 .jo-breadcrumb {
   padding: 9.323vw 0 6.458vw;
   background: url(../img/breadcrumb-bg.jpg) no-repeat center center;
@@ -654,6 +729,7 @@ input {
   .jo-breadcrumb {
     padding: 130px 0 80px;
   }
+
 }
 .jo-breadcrumb::before {
   content: "";
