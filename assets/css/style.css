@@ -306,6 +306,14 @@ p {
 .sns-info-state{margin-bottom: 0; font-size: 11px; color: #999; line-height: 1.4;}
 .sns-info-state .up{ color: #06a756; margin-left: 10px;}
 .sns-info-state .down{ color: #E5002A; margin-left: 10px;}
+
+.gift-data{ padding: 15px;  margin-bottom: 20px;}
+.gift_info img{width: 100%; border-radius: 15px;}
+.chart{width: 100%;}
+.gift-info-tit{font-size: 20px; font-weight: 700; display: flex; justify-content:space-between; }
+.gift-info-txt{ font-size: 14px; margin-bottom: 3px;}
+.zoomview{ border-radius: 30px !important; right: 0; top: 0; font-size: 16px; font-weight: 400; padding:20px 13px !important;  margin-left: 20px; vertical-align: middle; cursor: pointer;}
+.zoomview::before{border-radius: 30px !important;}
 @media screen and (max-width: 479px) {
   .col-xxs-12 {
     width: 100%;
