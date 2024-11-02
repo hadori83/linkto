@@ -278,7 +278,7 @@ p {
   color: var(--black);
 }
 .seller-btn{
-  font-size: clamp(22px, 2.08vw, 26px);
+  font-size: clamp(20px, 2.08vw, 26px);
   border-radius: 40px !important;
   overflow: hidden;
   padding: 0 4vw !important;
@@ -287,7 +287,25 @@ p {
 
 }
 
+.sub-tit{
+    font-weight: 700;
+    font-size: clamp(20px, 1.7vw, 40px);
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    color: var(--black);
+}
 
+.sns-data{background: #f9f9f9; border-radius: 10px; padding: 15px; border: 1px solid #f3f3f3; margin-bottom: 20px;}
+.sns-data:hover{background: #f3f3f3;}
+.sns_info{position: relative; padding-left: 120px;  display: flex; min-height: 100px;  align-items: top; font-size: 16px;}
+.sns_info img{position: absolute; left: 0; top: 0; width: 100px;}
+.sns_info p {margin-bottom: 0;}
+.sns-info-box{border-radius: 5px; background: #fff; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); padding: 10px; letter-spacing: 0; margin: 0 5px;}
+.sns-info-tit{margin-bottom: 0; font-size: 12px; color: #333; line-height: 1.4;}
+.sns-info-num{margin-bottom: 0; font-size: 24px; font-weight: 700; color: #333; line-height: 1.2;}
+.sns-info-state{margin-bottom: 0; font-size: 11px; color: #999; line-height: 1.4;}
+.sns-info-state .up{ color: #06a756; margin-left: 10px;}
+.sns-info-state .down{ color: #E5002A; margin-left: 10px;}
 @media screen and (max-width: 479px) {
   .col-xxs-12 {
     width: 100%;
