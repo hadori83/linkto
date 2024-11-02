@@ -314,6 +314,23 @@ p {
 .gift-info-txt{ font-size: 14px; margin-bottom: 3px;}
 .zoomview{ border-radius: 30px !important; right: 0; top: 0; font-size: 16px; font-weight: 400; padding:20px 13px !important;  margin-left: 20px; vertical-align: middle; cursor: pointer;}
 .zoomview::before{border-radius: 30px !important;}
+.explore_tab{display: flex; width: 100%; align-items: center; max-width: 500px; margin: 0 auto; margin-bottom: 10px;}
+.btn_explore_tab{ border: 1px solid #fff; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05); color: #fff; font-size: 20px; border-radius: 50px; width: 100%; display: inline-block; line-height: 40px; margin: 0 5px; font-weight: 500;}
+.btn_explore_tab:hover{
+  background: linear-gradient(90deg, var(--tt-gold) 0%, var(--tt-pink) 100%);
+  color: #fff;
+  border-color: var(--tt-pink);
+}
+.explore_tab .active{
+  background: linear-gradient(90deg, var(--tt-gold) 0%, var(--tt-pink) 100%);
+  color: #fff;
+  border-color: var(--tt-pink);
+}
+.tag-area{ margin:0 20px; margin-top: 20px; display: flex; justify-content:center;}
+.tag-txt-area{}
+.tag-item{ display: inline-block; border-radius: 30px; border: 1px solid #fff; font-size: 16px; font-weight: 400; padding:8px 13px !important; margin-right: 10px;  vertical-align: middle; cursor: pointer;}
+.tag-add{border-radius: 10px !important; right: 0; top: 0; font-size: 16px; font-weight: 400; padding:20px 13px !important;  vertical-align: middle; cursor: pointer; }
+.tag-add::before{border-radius: 10px !important;}
 @media screen and (max-width: 479px) {
   .col-xxs-12 {
     width: 100%;
