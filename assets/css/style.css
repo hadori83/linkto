@@ -78,7 +78,12 @@ svg path {
 a {
   text-decoration: none;
   vertical-align: top;
+  color: var(--tt-pink);
 }
+a:hover {
+  color: var(--tt-pink);
+}
+
 
 button {
   background-color: transparent;
@@ -357,6 +362,10 @@ p {
 .explore-count .btn-line{background: #fff; color: #e43da1;}
 .explore-count .btn-line:hover{background: var(--tt-gradient-1);}
 .explore-count .btn-line::before{background: none; box-shadow: inset 0 0 2px 1px #e43da1;}
+
+.shop-tag-area{display: flex; flex-wrap: wrap; margin-bottom: 20px;}
+.shop-tag{margin-right: 15px; margin-bottom: 5px; border: 1px solid #ddd; border-radius: 20px; font-size: 16px; padding: 5px 30px; cursor: pointer;}
+.shop-tag:hover{background:#ffdbf1; color: #f55eb9; border-color: #ffd0ec;}
 
 @media screen and (max-width: 479px) {
   .col-xxs-12 {
