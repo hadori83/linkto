@@ -331,6 +331,26 @@ p {
 .tag-item{ display: inline-block; border-radius: 30px; border: 1px solid #fff; font-size: 16px; font-weight: 400; padding:8px 13px !important; margin-right: 10px;  vertical-align: middle; cursor: pointer;}
 .tag-add{border-radius: 10px !important; right: 0; top: 0; font-size: 16px; font-weight: 400; padding:20px 13px !important;  vertical-align: middle; cursor: pointer; }
 .tag-add::before{border-radius: 10px !important;}
+
+.explore-box{background: #f9f9f9; border-radius: 10px; padding: 25px; border: 1px solid #f3f3f3; margin-bottom: 20px;}
+.explore-box:hover{background: #fff9fc; border: 1px solid #ff5bbd; cursor: pointer;}
+.explore_info{ display: flex; justify-content:left;}
+.explore_info p{margin-left: 30px; color: #111; font-weight: 600; font-size: 18px;}
+.explore_info span{font-size: 12px; display: block; margin-bottom: 20px; font-weight: 300; color:  #666;}
+.explore_info img{width: 120px; border-radius: 100px; margin-left: 30px;}
+.explore_info .btn{border: 1px solid #e43da1; color: #e43da1; font-size: 14px; display: block; min-width: 120px;}
+.explore_info .btn:hover{background: #e43da1; color: #fff;}
+.explore-photo{}
+.explore-photo img{border-radius: 10px;}
+.explore-box input[type="checkbox"] {
+  width: 1.4em;
+  height: 1.4em;
+}
+.explore-box .form-check-input:checked {
+  background-color: #e43da1;
+  border-color: #e43da1;
+}
+
 @media screen and (max-width: 479px) {
   .col-xxs-12 {
     width: 100%;
