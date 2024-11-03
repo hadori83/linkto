@@ -367,6 +367,8 @@ p {
 .shop-tag{margin-right: 15px; margin-bottom: 5px; border: 1px solid #ddd; border-radius: 20px; font-size: 16px; padding: 5px 30px; cursor: pointer;}
 .shop-tag:hover{background:#ffdbf1; color: #f55eb9; border-color: #ffd0ec;}
 
+.shop-item{}
+
 @media screen and (max-width: 479px) {
   .col-xxs-12 {
     width: 100%;
