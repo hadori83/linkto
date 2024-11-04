@@ -194,7 +194,7 @@ p {
   transform: translateY(0);
   pointer-events: all;
 }
-.text-start{font-weight: 300;}
+
 .txt-point{margin-left: 10px; color: #ffe712;}
 .why-txt{color: #e43da1; font-size: 26px; font-weight: 600;}
 .why-box-tit{font-size: 20px; color: #111; height: 60px; margin-bottom: 10px; letter-spacing:-1px;}
@@ -210,10 +210,12 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    word-break: keep-all;
     justify-content: center;
     z-index: 1;
     color: var(--white);
     overflow: hidden;
+    font-size: 18px;
     border-radius: 30px;
 }
 .seller_bg1::before {
@@ -237,8 +239,10 @@ p {
    display: flex;
    flex-direction: column;
    align-items: center;
+   word-break: keep-all;
    justify-content: center;
    z-index: 1;
+   font-size: 18px;
    color: var(--white);
    overflow: hidden;
    border-radius: 30px;
@@ -266,6 +270,8 @@ p {
    align-items: center;
    justify-content: center;
    z-index: 1;
+   word-break: keep-all;
+   font-size: 18px;
    color: var(--white);
    overflow: hidden;
    border-radius: 30px;
@@ -280,7 +286,77 @@ p {
 }
 .seller_bg3 h2{font-size: clamp(18px, 2.08vw, 1.2vw);}
 
+.about-tit{color: #e43da1; font-size: 26px; font-weight: 600;}
+.about-btn{
+  font-size: clamp(20px, 1.4vw, 20px);
+  border-radius: 40px !important;
+  overflow: hidden;
+  width: 400px;
 
+  text-align: center;
+  line-height: 60px !important;
+  height: 60px !important;
+  margin-top: 20px;
+}
+.about_bg{
+  height: 20vw;
+   background: url(../img/about_bg1.jpg) no-repeat center center;
+   padding: 0 2vw;
+   background-size: cover;
+   text-align: center;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   z-index: 1;
+   word-break: keep-all;
+   font-size: 18px;
+   color: var(--white);
+   overflow: hidden;
+   border-radius: 30px;
+}
+.about_bg::before {
+ content: "";
+ position: absolute;
+ inset: 0;
+ background: linear-gradient(90deg, #222, #111);
+ z-index: -1;
+ opacity: 50%;
+}
+.about_bg p {padding: 0 5vw;}
+.about_bg2{
+  height: 20vw;
+   background: url(../img/about_bg2.jpg) no-repeat center center;
+   padding: 0 2vw;
+   background-size: cover;
+   text-align: center;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   z-index: 1;
+   word-break: keep-all;
+   font-size: 18px;
+   color: var(--white);
+   overflow: hidden;
+   border-radius: 30px;
+}
+.about_bg2::before {
+ content: "";
+ position: absolute;
+ inset: 0;
+ background: linear-gradient(90deg, #222, #111);
+ z-index: -1;
+ opacity: 50%;
+}
+.about_bg2 p {padding: 0 5vw;}
+
+
+.about-txt{
+  font-size: clamp(20px, 1.4vw, 20px);
+}
 .jo-section-title2 {
   font-weight: 700;
   font-size: clamp(22px, 2.08vw, 30px);
