@@ -315,6 +315,7 @@ p {
    color: var(--white);
    overflow: hidden;
    border-radius: 30px;
+   margin-bottom: 20px;
 }
 .about_bg::before {
  content: "";
@@ -325,6 +326,24 @@ p {
  opacity: 50%;
 }
 .about_bg p {padding: 0 5vw;}
+@media screen and (max-width: 1199px) {
+  .about_bg {
+    height: 280px;
+    background: url(../img/about_bg1.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .about_bg {
+    height: 280px;
+    background: url(../img/about_bg1.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
+    border-radius: 20px;
+  }
+}
 .about_bg2{
   height: 20vw;
    background: url(../img/about_bg2.jpg) no-repeat center center;
@@ -342,6 +361,7 @@ p {
    color: var(--white);
    overflow: hidden;
    border-radius: 30px;
+   margin-bottom: 20px;
 }
 .about_bg2::before {
  content: "";
@@ -353,6 +373,26 @@ p {
 }
 .about_bg2 p {padding: 0 5vw;}
 
+.about_bg p {padding: 0 5vw;}
+@media screen and (max-width: 1199px) {
+  .about_bg2 {
+    height: 280px;
+    background: url(../img/about_bg2.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .about_bg2 {
+    height: 280px;
+    background: url(../img/about_bg2.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
+    border-radius: 20px;
+  }
+  .about-btn{width: 100%;}
+}
 
 .about-txt{
   font-size: clamp(20px, 1.4vw, 20px);
@@ -899,13 +939,20 @@ input {
 }
 @media screen and (max-width: 1199px) {
   .jo-breadcrumb3 {
-    padding: 140px 0 100px;
+    height: 280px;
+    background: url(../img/main_bg2.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
   }
 }
 @media screen and (max-width: 479px) {
   .jo-breadcrumb3 {
-    padding: 130px 0 80px;
+    height: 280px;
+    background: url(../img/main_bg2.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
   }
+  
 }
 .jo-breadcrumb3::before {
   content: "";
@@ -943,12 +990,18 @@ input {
 }
 @media screen and (max-width: 1199px) {
   .jo-breadcrumb4 {
-    padding: 140px 0 100px;
+    height: 280px;
+    background: url(../img/main_bg3.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
   }
 }
 @media screen and (max-width: 479px) {
   .jo-breadcrumb4 {
-    padding: 130px 0 80px;
+    height: 280px;
+    background: url(../img/main_bg3.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
   }
 }
 .jo-breadcrumb4::before {
@@ -976,12 +1029,18 @@ input {
 }
 @media screen and (max-width: 1199px) {
   .jo-breadcrumb5 {
-    padding: 140px 0 100px;
+    height: 280px;
+    background: url(../img/main_bg4.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
   }
 }
 @media screen and (max-width: 479px) {
   .jo-breadcrumb5 {
-    padding: 130px 0 80px;
+    height: 280px;
+    background: url(../img/main_bg4.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 12vw;
   }
 }
 .jo-breadcrumb5::before {
